@@ -1,0 +1,162 @@
+
+<div>
+	The <strong>Create an Autodeck</strong> page enables you to use the
+	outputs from your Cognos Schedule Requests in combination with any
+	uploaded xls/xlsx files to create new BI@IBM presentation decks.&nbsp;
+</div>
+<br />
+
+<div>
+	<a id="managingSchedsID" href="#" name="managingScheds"><span
+		style="display: none;">accessibility</span></a> Use the following
+	procedure to create a new presentation deck:
+</div>
+<br />
+
+<ol>
+	<li>After opening the <strong>My Autodeck schedules</strong> page,
+		click on the <strong>Create an Autodeck</strong> menu option and then
+		complete the following fields to define your deck content:
+
+		<ul>
+			<li><strong>Select required output type</strong>. Click to
+				select the desired deck format - for PowerPoint decks only you may
+				also:
+				<ul>
+					<li>Show a border around each of the configured report
+						elements - click on the <strong>Outline images</strong> checkbox
+						to apply this border to all slides in the generated Autodeck.
+					</li>
+					<li>Modify the presentation style by selecting one of the
+						available PowerPoint output format templates.</li>
+					<li>Change the <strong>image paste type</strong> to adjust the
+						image quality in your final output
+					</li>
+				</ul></li>
+			<li><strong>Specify presentation deck filename</strong>. Type
+				your chosen filename in the field provided. Please note that the
+				filename may not include spaces or any special characters other than
+				'_' and has a maximum length of 33 characters.</li>
+			<li><strong>Send the generated file as</strong>. Click the radio
+				button to choose whether a link or attached file is required</li>
+			<li><strong>Zip output</strong>. Click to the radio button to
+				determin if the output file should be compressed</li>
+			<li><strong>Append date</strong> Select this option if you wish
+				to append date information to the file name to help distinguish
+				weekly Autodeck outputs. If you select this option you will be asked
+				to choose from one of the provided date information formats. <strong>Note</strong>
+				that the week number and quarter used in this process are determined
+				by the data currency information provided in the ESA Weekly tables
+				following the <strong>AP data update cycle</strong>.</li>
+			<li><strong>Autodeck inputs</strong>. Click on this link to
+				pick your required deck content from the portfolio of active Cognos
+				schedule requests that you have set up and any xls/xlsx files that
+				you have uploaded.
+				The current readiness state is provided in the <strong>Output Status</strong> and
+				<strong>Last Ready Time</strong> information that is shown for each of the TBS inputs you select.
+				Choose the reports in the order you wish them to
+				appear, or use the checkboxes alongside each of your selected
+				requests and then adjust the page order as needed by clicking on the
+				<strong>Up</strong> or <strong>Down</strong> links before clicking
+				on <strong>OK</strong> to return.</li>
+			<br>&nbsp;
+		</ul>
+	</li>
+
+	<li>Complete the requested e-Mail information:
+		<ul>
+			<li><strong>e-Mail address</strong>: This is a required field.
+				You can type the intranet style e-Mail address for up to 12
+				recipients.</li>
+			<li><strong>Subject</strong>: This is a required field. Type the
+				text to display in the subject line of the e-Mail.<br> <strong>Note</strong>:
+				It is recommended that you use this field to make it easy to
+				identify this Autodeck request in your mail.</li>
+			<li><strong>e-Mail content:</strong> This is an optional field.
+				Type information about the presentation deck that you want to
+				include in the body of the e-Mail message.</li>
+			<li><strong>Backup</strong>: Specify the intranet ID of the user
+				who you want to act as the backup owner (editor) of this Autodeck
+				definition. This is an optional field.</li>
+			<br>&nbsp;
+		</ul>
+	</li>
+
+	<li><strong>Final deck Synchronisation</strong>:
+						Your Autodeck will be created as soon as all the criteria for the Autodeck creation have been met.
+						The requested inputs must be available and have been updated since the specified day / time (Weekly Autodecks)
+						or since the last <strong>Final</strong> deck was produced (Daily Autodecks).
+						Note that xls uploads are not checked for updates and will be used in their current state as soon as all
+						other inputs are available.
+						If the schedule output is no longer available to be used the associated Cognos Schedule must be rerun (normal schedule or Run now action)
+						or removed before the Autodeck can be produced.<br><br>
+						Choose from one of the following two options to control the timing of your <strong>Final</strong> Autodeck creation:
+						<ol>
+							<li><strong>Day/Time</strong> - the Autodeck will be created
+							when all required inputs are updated <strong>again AFTER</strong> the chosen day and time.
+							<br>
+							<strong>Note: This is the recommended option for Weekly Autodecks and is now the default for all newly created Autodeck schedules.
+							For weekly cadence reports you should choose 'Wednesday' and a time a few hours prior to earliest update time for the data your
+							reports rely on.</li></strong><br>
+							<li><strong>When Ready</strong> - the Autodeck will be created
+							when all required inputs are <strong>NEXT</strong> updated, regardless of when that happens.
+							<br>
+							<strong>Important notes for option #2 (When Ready): </strong>
+							<ul>
+							<li>Until the Autodeck has been generated at least once, the only available readiness states are 'Ready' and 'Unavailable' -
+							the additional 'Not Ready' designation can only appear after the generation process has completed.
+							As such, this additional information will only be shown
+							in the <strong>Edit requests</strong> tab of the <strong>Existing Autodecks</strong> pages.</li>
+							<li>If your Autodeck relies on content that is scheduled to be produced
+							on different days of the week, you need to be very careful about
+							the day you initially submit your request, as this will determine
+							when subsequent decks are created. For example, consider a simple
+							deck that uses an input (A) created on a Tuesday and another (B)
+							that is created on Thursday each week. If the user wants the
+							Autodeck to contain information from the same week, the schedule
+							should be submitted after report B has been updated and before
+							report A is re-triggered (e.g. on Friday). If the deck was created
+							between the refresh cycles of reports A and B (e.g. on Wednesday),
+							the Autodeck would always contain the current week content for
+							report A and the prior week content for report B.</li>
+							<li>The <strong>Reset Output Status</strong> function on the Edit Requests tab of your Existing Autodeck definitions
+							allows you correct this and resync the TBS inputs by toggling
+							between the <strong>Ready</strong> and <strong>Not Ready</strong> states for the selected TBS input(s) if necessary.</li>
+							</li>
+						</ol>
+			<br>&nbsp;
+		</ul></li>
+		<li><strong>Status Messages / Provisional Decks</strong>: Use the menu selection list to control any additional action that is required:
+			<ul>
+				<li>Not needed - i.e no additional action required.</li>
+				<li>Status Message only - e-Mail notification summarising the readiness state of all associated TBS inputs.</li>
+				<li>Provisional Deck with Status Message - include a Provisional deck containing all currently available input with the Status Message.</li>
+			</ul>
+			Choosing either of the last two options opens an additional dialog to allow you to
+			specify the timing and how frequently you want your Provisional deck and/or
+			status message updates to be delivered.
+			<ol>
+				<li><strong>Daily/weekly</strong>, select the desired
+				weekday(s) - use the Ctrl key to select multiple days if you
+				wish to receive more than one update.</li>
+				<li><strong>Monthly</strong>, select the day of each month.</li>
+			</ol>
+			<li><strong>Desired time</strong>: Select the time (GMT) at
+			which you would like to receive the status e-Mail in the event that
+			the deck has not been created. A message will not be sent if a <strong>Final</strong>
+			deck has been produced within the previous 24 hours. This time is
+			also used as the trigger for the <strong>Provisional</strong> deck
+			to be produced if requested.</li>
+		<li><strong>Expiration date</strong>: Click in the <strong>Expiration
+		date</strong> box and then select the date at which you will no longer
+		require this deck to be created. A warning e-Mail will be sent in
+		advance of this date to prompt you to extend the date if desired
+		using the function enabled in the <strong>My Autodeck schedules</strong> page.</li>
+		</ul>
+		<br></li>
+
+	<li>Click <strong>Submit</strong>.<br>
+	</li>
+</ol>
+&nbsp;
+<br>

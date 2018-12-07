@@ -1,0 +1,94 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a,
+	abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins,
+	kbd, q, s, samp, small, select, strike, strong, sub, sup, tt, var, b, u,
+	i, center, dl, dt, dd, li, fieldset, form, label, input, legend, table,
+	caption, tbody, tfoot, thead, tr, th, td, textarea {
+	font-size: 12px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+table.dataTable thead th, table.dataTable thead td, table.dataTable tbody th,
+	table.dataTable tbody td {
+	padding: 2px 10px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+
+thead.runid tr th, thead.runid tr td {
+	padding: 19px 13px;
+}
+/** make the controller smaller tall - Start **/
+[class*="ibm-btn-"][class*="-pri"][class*="blue-50"] {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+a[class*="ibm-btn-"][class*="-pri"][class*="blue-50"] {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+.select2-container .select2-selection--single {
+	height: 30px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered
+	{
+	line-height: 24px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow
+	{
+	top: -5px;
+}
+
+/** make the controller smaller tall - End **/
+.ibm-text-tabs .ibm-tabs li a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#ibm-secondary-tabs .ibm-tabs a:hover, #ibm-secondary-tabs .ibm-tabs a:focus,
+	.ibm-text-tabs .ibm-tabs a:hover, .ibm-text-tabs .ibm-tabs a:focus {
+	border-bottom: 4px solid #7CC7FF;
+}
+
+.ibm-text-tabs .ibm-tabs li {
+	border-right: 1px solid #7D7373;
+	border-bottom: 1px solid #7D7373;
+}
+
+.ibm-text-tabs .ibm-tabs li {
+	padding: 0 10px 0 10px
+}
+
+.ibm-text-tabs .ibm-tabs li:last-child {
+	padding-right: 10px
+}
+
+.ibm-text-tabs .ibm-tab-section ul.ibm-tabs {
+	background-color: #ececec;
+}
+
+.ibm-data-table thead tr {
+	background-color: #ececec;
+}
+
+.ibm-tabs-content .dataTables_wrapper.no-footer {
+	padding-top: 0px;
+}
+
+.ibm-card__content {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ibm-alternate-1 {
+	margin: 0;
+}

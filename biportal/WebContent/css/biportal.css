@@ -1,0 +1,1050 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a,
+	abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins,
+	kbd, q, s, samp, small, select, strike, strong, sub, sup, tt, var, b, u,
+	i, center, dl, dt, dd, li, fieldset, form, label, input, legend, table,
+	caption, tbody, tfoot, thead, tr, th, td, textarea {
+	font-size: 12px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+table.dataTable thead th, table.dataTable thead td, table.dataTable tbody th,
+	table.dataTable tbody td {
+	padding: 2px 10px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+
+/** make the controller smaller tall - Start **/
+[class*="ibm-btn-"][class*="-pri"][class*="blue-50"] {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+a[class*="ibm-btn-"][class*="-pri"][class*="blue-50"] {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+.select2-container .select2-selection--single {
+	height: 30px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered
+	{
+	line-height: 24px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow
+	{
+	top: -5px;
+}
+
+/** make the controller smaller tall - End **/
+.ibm-text-tabs .ibm-tabs li a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#ibm-secondary-tabs .ibm-tabs a:hover, #ibm-secondary-tabs .ibm-tabs a:focus,
+	.ibm-text-tabs .ibm-tabs a:hover, .ibm-text-tabs .ibm-tabs a:focus {
+	border-bottom: 4px solid #7CC7FF;
+}
+
+.ibm-text-tabs .ibm-tabs li {
+	border-right: 1px solid #7D7373;
+	border-bottom: 1px solid #7D7373;
+}
+
+.ibm-text-tabs .ibm-tabs li {
+	padding: 0 10px 0 10px
+}
+
+.ibm-text-tabs .ibm-tabs li:last-child {
+	padding-right: 10px
+}
+
+.ibm-text-tabs .ibm-tab-section ul.ibm-tabs {
+	background-color: #ececec;
+}
+
+.ibm-data-table thead tr {
+	background-color: #ececec;
+}
+
+.ibm-tabs-content .dataTables_wrapper.no-footer {
+	padding-top: 0px;
+}
+
+.bireport_Report_Type_Static {
+	background-image: url(../images/subscribe.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_Static_sel {
+	background-image: url(../images/subscribe_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.action_button_Report_CB {
+	background-image: url(../images/myrep.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.action_button_Report_CB_sel {
+	background-image: url(../images/myrep_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_OD {
+	background-image: url(../images/run.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_OD_sel {
+	background-image: url(../images/run_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_Analytic {
+	background-image: url(../images/run_analytic.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_Analytic_sel {
+	background-image: url(../images/run_analytic_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_Center {
+	background-image: url(../images/center.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_Center_sel {
+	background-image: url(../images/center_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_links {
+	background-image: url(../images/run_generic.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_links_sel {
+	background-image: url(../images/run_generic_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_HCOC {
+	background-image: url(../images/analyzeprocess.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_HCOC_sel {
+	background-image: url(../images/analyzeprocess_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_IR {
+	background-image: url(../images/run_ir_Rpt.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_IR_sel {
+	background-image: url(../images/run_ir_Rpt_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_report {
+	background-image: url(../images/action_edit_with_RS_new.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_report_sel {
+	background-image: url(../images/action_edit_with_RS_new_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_query {
+	background-image: url(../images/action_edit_with_QS_new.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_query_sel {
+	background-image: url(../images/action_edit_with_QS_new_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_analysis {
+	background-image: url(../images/tools_analysis_studio_new.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_analysis_sel {
+	background-image: url(../images/tools_analysis_studio_new_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_dashboard {
+	background-image: url(../images/icon_dashboard.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_dashboard_sel {
+	background-image: url(../images/icon_dashboard_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_interactiveReport {
+	background-image: url(../images/icon_interactive_report.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_interactiveReport_sel {
+	background-image: url(../images/icon_interactive_report_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_pagelet {
+	background-image: url(../images/icon_page.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_pagelet_sel {
+	background-image: url(../images/icon_page_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_reportView {
+	background-image: url(../images/icon_report_sub.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_reportView_sel {
+	background-image: url(../images/icon_report_sub_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_shortcut {
+	background-image: url(../images/icon_shortcut.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_URL_sel {
+	background-image: url(../images/icon_url_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_URL {
+	background-image: url(../images/icon_url.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_cognos_shortcut_sel {
+	background-image: url(../images/icon_shortcut_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+/***** Belows are for Blob Folder *****/
+.bifolder_Folder_Type_BolbFolder {
+	background-image: url(../images/folder.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_CognosFolder_folder {
+	background-image: url(../images/folder.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.bireport_Report_Type_CognosFolder_package {
+	background-image: url(../images/icon_package.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+/***** Belows are for Action combobutton *****/
+
+/* public */
+.action_menu_addFav {
+	background: url(../images/myrep.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_removeFav {
+	background: url(../images/delete.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_addFav {
+	background: url(../images/myrep.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_addFav_sel {
+	background: url(../images/myrep_sel.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+/* 1. links */
+.action_menu_links_runRpt {
+	background: url(../images/run_generic.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_links_helpRpt {
+	background: url(../images/rpt_help.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+/* 2. IR */
+.action_menu_IR_runRpt {
+	background: url(../images/run_ir_Rpt.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_IR_subsRpt {
+	background: url(../images/subscribe.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_IR_subsRpt_sel {
+	background: url(../images/subscribe_sel.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+/* yhqin add this css for remove from My subscription */
+.action_menu_IR_subsRpt_del {
+	background: url(../images/delete.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_IR_mailRpt {
+	background: url(../images/mail.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_IR_helpRpt {
+	background: url(../images/rpt_help.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+/* 3. cognos */
+.action_menu_cognos_runRpt {
+	background: url(../images/cognos_action_run.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_menu_cognos_helpRpt {
+	background: url(../images/rpt_help.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_schedule_this_report {
+	background: url(../images/action_edit_schedule.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+/* Belows are old code */
+.action_button_runIRRpt {
+	background: url(../images/run_ir_Rpt.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_subscribe {
+	background: url(../images/subscribe.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_subscribe_sel {
+	background: url(../images/subscribe_sel.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_mailRpt {
+	background: url(../images/mail.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_mailRptDisabled {
+	background: url(../images/mail_disabled.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_helpRpt {
+	background: url(../images/rpt_help.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_addFav {
+	background: url(../images/myrep.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_addFav_sel {
+	background: url(../images/myrep_sel.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_runRpt {
+	background: url(../images/run.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_runRptDisabled {
+	background: url(../images/mail_disabled.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_runAnalyticRpt {
+	background: url(../images/run_analytic.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_runCenterRpt {
+	background: url(../images/center.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_runGenericRpt {
+	background: url(../images/run_generic.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_runHCOCRpt {
+	background: url(../images/analyzeprocess.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.action_button_removeSubs {
+	background: url(../images/delete.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_action_run {
+	background: url(../images/action_run_16.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_view_output {
+	background: url(../images/action_view_report_output.gif) no-repeat left
+		top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_edit_with_QS {
+	background: url(../images/action_edit_with_QS.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_edit_with_RS {
+	background: url(../images/action_edit_with_RS.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_edit_with_AS {
+	background: url(../images/tools_analysis_studio.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_add_to_mr {
+	background: url(../images/myrep.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_add_to_mr_sel {
+	background: url(../images/myrep_sel.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_report_help {
+	background: url(../images/rpt_help.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_open_pagelet {
+	background: url(../images/icon_page.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_open_dashboard {
+	background: url(../images/icon_dashboard.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_open_URL {
+	background: url(../images/icon_url.gif) no-repeat left top;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.cognos_Report_Type_QS_query {
+	background-image: url(../images/action_edit_with_QS.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_QS_query_sel {
+	background-image: url(../images/action_edit_with_QS_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_RS_report {
+	background-image: url(../images/action_edit_with_RS.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_RS_report_sel {
+	background-image: url(../images/action_edit_with_RS_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_AS_report {
+	background-image: url(../images/tools_analysis_studio.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_AS_report_sel {
+	background-image: url(../images/tools_analysis_studio_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_reportView {
+	background-image: url(../images/icon_report_sub.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_reportView_sel {
+	background-image: url(../images/icon_report_sub_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_URL {
+	background-image: url(../images/icon_url.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_URL_sel {
+	background-image: url(../images/icon_url_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_shortcut {
+	background-image: url(../images/icon_shortcut.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_shortcut_sel {
+	background-image: url(../images/icon_shortcut_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_pagelet {
+	background-image: url(../images/icon_page.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_pagelet_sel {
+	background-image: url(../images/icon_page_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_dashboard {
+	background-image: url(../images/icon_dashboard.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_dashboard_sel {
+	background-image: url(../images/icon_dashboard_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_interactiveReport {
+	background-image: url(../images/icon_interactive_report.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_interactiveReport_sel {
+	background-image: url(../images/icon_interactive_report_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_QS_query_new {
+	background-image: url(../images/action_edit_with_QS_new.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_QS_query_new_sel {
+	background-image: url(../images/action_edit_with_QS_new_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_RS_report_new {
+	background-image: url(../images/action_edit_with_RS_new.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_RS_report_new_sel {
+	background-image: url(../images/action_edit_with_RS_new_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_AS_report_new {
+	background-image: url(../images/tools_analysis_studio_new.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.cognos_Report_Type_AS_report_new_sel {
+	background-image: url(../images/tools_analysis_studio_new_sel.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.loading {
+	background-image: url(../images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.refresh {
+	background-image: url(../images/refresh.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+/**
+*css class for bi portal drop down menu
+*/
+table.dropdown_menu {
+	background-color: white;
+	border-collapse: collapse;
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px #888888;
+	cursor: pointer;
+}
+
+table.dropdown_menu tr:hover td {
+	background: none;
+}
+
+table.dropdown_menu tr:hover {
+	background-color: #1f75cf;
+}
+
+table.dropdown_menu td.icon {
+	background-color: white;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-right-style: outset;
+}
+
+table.dropdown_menu td.menu {
+	background-color: white;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+
+.ibm-card__content {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ibm-alternate-1 {
+	margin: 0;
+}
+
+.ratecss {
+	
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.ratecss div{
+	
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+div.rating-container {
+  position: relative;
+}
+div.rating-container div.counter {
+  display: none;
+  position: absolute;
+  min-width: 20px;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 0px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 50%;
+  right: -36px;
+  margin-top: -10px;
+  color: white;
+}
+div.rating-container div.counter:before,
+div.rating-container div.counter ::before {
+  content: "";
+  width: 0;
+  height: 0;
+  top: 50%;
+  margin-top: -5px;
+  display: block;
+  border-color: transparent rgba(0, 0, 0, 0.8) transparent transparent;
+  border-width: 5px 5px 5px 0px;
+  left: -10px;
+  border-style: solid;
+  position: relative;
+}
+div.rating-container:hover div.counter {
+  display: block;
+}
+div.rating-container div.counter {
+  display: block;
+}
+
+	.container{
+		width: 1000px;
+	}
+	.commentbox{
+		width: 900px;
+		margin: 20px auto;
+	}
+	.mytextarea {
+	    width: 100%;
+	    overflow: auto;
+	    word-break: break-all;
+	    height: 100px;
+	    color: #000;
+	    font-size: 1em;
+	    resize: none;
+	}
+	.comment-list{
+		width: 900px;
+		margin: 20px auto;
+		clear: both;
+		padding-top: 20px;
+	}
+	.comment-list .comment-info{
+		position: relative;
+		margin-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ccc;
+	}
+	.comment-list .comment-info header{
+		width: 10%;
+		position: absolute;
+	}
+	.comment-list .comment-info header img{
+		width: 100%;
+		border-radius: 50%;
+		padding: 5px;
+	}
+	.comment-list .comment-info .comment-right{
+		padding:5px 0px 5px 11%; 
+	}
+	.comment-list .comment-info .comment-right h3{
+		margin: 5px 0px;
+	}
+	.comment-list .comment-info .comment-right .comment-content-header{
+		height: 25px;
+	}
+	.comment-list .comment-info .comment-right .comment-content-header span,.comment-list .comment-info .comment-right .comment-content-footer span{
+		padding-right: 2em;
+		color: #aaa;
+	}
+	.comment-list .comment-info .comment-right .comment-content-header span,.comment-list .comment-info .comment-right .comment-content-footer span.reply-btn,.send,.reply-list-btn{
+		cursor: pointer;
+	}
+	.comment-list .comment-info .comment-right .reply-list {
+		border-left: 3px solid #ccc;
+		padding-left: 7px;
+	}
+	.comment-list .comment-info .comment-right .reply-list .reply{
+		border-bottom: 1px dashed #ccc;
+	}
+	.comment-list .comment-info .comment-right .reply-list .reply div span{
+		padding-left: 10px;
+	}
+	.comment-list .comment-info .comment-right .reply-list .reply p span{
+		padding-right: 2em;
+		color: #aaa;
+	}
+span.reply-btn {
+    color: rgb(50, 92, 128) !important;
+    font-size: 15px;
+}

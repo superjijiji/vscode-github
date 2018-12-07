@@ -1,0 +1,1 @@
+<jsp:forward page="./action/portal/index"></jsp:forward>

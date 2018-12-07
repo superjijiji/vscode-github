@@ -1,0 +1,355 @@
+
+<!--CONTENT AREA BEGINS HERE-->
+<table summary="This is a layout table." border="0" cellpadding="0"
+	cellspacing="0" width="100%">
+	<tr style="display: none;">
+		<th scope="col">col1</th>
+		<th scope="col">col2</th>
+	</tr>
+	<tr>
+		<th scope="row" style="display: none;">row1</th>
+		<td style="width: 100%; height: 15px;"><img
+			src="/images/v6/odot.gif" alt="" height="15" width="1"></td>
+	</tr>
+	<tr>
+		<th scope="row" style="display: none;">row2</th>
+		<td style="width: 100%; height: 1px; vertical-align: top;">There
+			are six help topics in this window:
+			<ul>
+				<li><a href="#repDef">The Cognos Schedule Panel</a></li>
+				<li><a href="#editPromptsTab">Edit prompts tab</a></li>
+				<li><a href="#outputFormatTab">Output format tab</a></li>
+				<li><a href="#emailInfoTab">e-Mail information tab</a></li>
+				<li><a href="#schedTab">Schedule tab</a></li>
+				<li><a href="#histTab">Schedule history tab</a></li>
+			</ul>
+			<div style="font-weight: bold">
+				<a id="ID1" href="#" name="repDef"><span style="display: none;">accessibility</span></a>
+				<span class="title_help_page">The Cognos Schedule Panel</span>
+			</div>
+			<br />
+			<div>
+				The <strong>Cognos Schedule</strong> panel allows you to create new
+				Cognos Schedule Requests based on a series of event triggers (e.g.
+				data availability) or modify those you have created earlier. The
+				panel opens in a new browser window when you click the <strong>Schedule
+					This Report</strong> icon for a schedule-enabled Cognos report or when you
+				click on the <strong>Report Name</strong> link from the <strong>My
+					Cognos Schedules</strong> page. Step-by-step instructions are provided and
+				can be 'toggled' on and off by clicking on the <strong>'Show
+					instructions | Hide instructions'</strong> text. (Note that these schedules
+				are separate from the time-based scheduling supported by the native
+				Cognos product.)
+			</div>
+			<br />
+			<div>
+				The panel opens to the Edit prompts tab and also displays the Output
+				format, e-Mail information, Schedule and Schedule history tabs.<br />
+				Once the schedule has been set up, you may select a <strong>Priority</strong>
+				to control the sequence in which <strong>your</strong> schedules are
+				executed. The order of execution for a given trigger is:
+				<ol>
+					<li>High priority requests</li>
+					<li>Medium priority requests</li>
+					<li>Low priority requests</li>
+					<li>Off-peak requests</li>
+				</ol>
+				<p>
+					<strong>Note that Off-peak requests will be run when
+						system resources allow them to complete without impacting the
+						delivery of higher priority requests.</strong>
+				</p>
+				<p>
+					For reports that are configured to use the BI@IBM TBS <strong>Report
+						Chaining</strong> function, additional <strong>Chained report
+						controls</strong> options will be offered. These three settings allow you
+					to control the run-time execution of the parent and child reports
+					as follows:
+				</p>
+				<ol>
+					<li><strong>Run Parent and Child report</strong> - both
+						schedule requests will be run (this is the default setting)</li>
+					<li><strong>Do not run/create Child report</strong> - only the
+						Parent report schedule request will be run</li>
+					<li><strong>Do not run Parent report</strong> - only the Child
+						report schedule request will be run</li>
+				</ol>
+				<p>
+					Before saving the updated schedule request by clicking on the <strong>Submit</strong>
+					button, you may also ask for the report to be <strong>Run
+						now</strong>. Simply click on the checkbox to add your request to the
+					processing queue where it will execute irrespective of whether the
+					trigger has been set that day or the specified schedule timing
+					information. Note that if the schedule request was previously in <strong>Inactive</strong>
+					state, the <strong>Run now</strong> request will reset it to <strong>Active</strong>.
+				</p>
+				<p>Other functions include the ability to:
+				<ul>
+					<li>View any <strong>Existing schedules</strong> (My Cognos
+						schedules page),
+					</li>
+					<li><strong>Create another schedule</strong> for the selected
+						report.</li>
+					<li><strong>Copy this schedule</strong> for yourself or for
+						another BI@IBM user. Please note that all new copies for yourself
+						will be set to <strong>Suspend</strong> state and will not execute
+						until you update the selected prompts. Copies for another BI@IBM
+						user will be set to <strong>Inactive</strong> state and will not
+						execute until the recipient sets it to <strong>Active</strong>
+						again.</li>
+				</ul>
+				</p>
+
+				&nbsp;
+				<!-- BACK TO TOP -->
+				<p class="ibm-ind-link ibm-back-to-top">
+					<a class="ibm-anchor-up-link" href="#ibm-pagetitle-h1">Back to
+						top</a>
+				</p>
+				<!-- END BACK TO TOP LINK -->
+
+				</li>
+				</ul>
+				</li>
+				</ul>
+				<br> &nbsp;
+				<div style="font-weight: bold">
+					<a id="ID3" href="#" name="editPromptsTab"><span
+						style="display: none;">accessibility</span></a> <span
+						class="title_help_page">Edit prompts tab</span>
+				</div>
+				<div>
+					<br />The <strong>Edit prompts</strong> tab enables you to define
+					the prompts you need use in your scheduled report request.
+				</div>
+				<br />
+				<ul>
+					<li>Click on the <strong>Select prompts</strong> (new
+						schedule) or <strong>Change prompts</strong> (existing schedule)
+						button to retrieve the available prompts. (Note that the Cognos
+						report design determines the prompts that may be used.)
+					</li>
+					<li>Pick your desired prompts and click on <strong>Finish</strong>
+						to return to the Cognos Schedule Panel. Your chosen prompts will
+						be shown in the <strong>Your Selected Prompts</strong> box.
+					</li>
+					<li>Add any <strong>Comments</strong> you require to help
+						distinguish this request from any others you set up for this
+						report.
+					</li>
+				</ul>
+				<!-- BACK TO TOP -->
+				<p class="ibm-ind-link ibm-back-to-top">
+					<a class="ibm-anchor-up-link" href="#ibm-pagetitle-h1">Back to
+						top</a>
+				</p>
+				<!-- END BACK TO TOP LINK -->
+				</li>
+				</ul>
+				<br /> <br> &nbsp;
+				<div style="font-weight: bold">
+					<a id="ID4" href="#" name="outputFormatTab"><span
+						style="display: none;">accessibility</span> </a><span
+						class="title_help_page">Output format tab</span>
+				</div>
+				<br />
+				<div>
+					The <strong>Output format</strong> tab enables you to select an
+					output type for your Cognos schedule request. Click on the radio
+					button next to your preferred deliverable format.
+				</div>
+				<br />
+				<!-- BACK TO TOP -->
+				<p class="ibm-ind-link ibm-back-to-top">
+					<a class="ibm-anchor-up-link" href="#ibm-pagetitle-h1">Back to
+						top</a>
+				</p>
+				<!-- END BACK TO TOP LINK -->
+				</li>
+				</ul>
+				<br> &nbsp;
+				<div style="font-weight: bold">
+					<a id="ID5" href="#" name="emailInfoTab"><span
+						style="display: none;">accessibility</span></a> <span
+						class="title_help_page">e-Mail information tab</span>
+				</div>
+				<br />
+				<div>
+					The <strong>e-Mail information</strong> tab is used to specify the
+					recipient information for your Cognos schedule request. <br>Complete
+					the following fields:
+				</div>
+				<br />
+				<ul>
+					<li><strong>e-Mail address</strong>: This is a required field.
+						You can type the e-Mail intranet address for up to 12 recipients
+						separated by spaces. You may use a combination of individual IDs
+						and any report distribution lists you have already set up using
+						the <strong>Report distribution lists</strong> link in the <strong>Resource
+							center</strong> portlet.<br> &nbsp;</li>
+					<li><strong>e-Mail subject</strong>: This is a required field.
+						Type the text to display in the subject line of the e-Mail. If you
+						do not enter text, the report name displays by default. <strong>Note</strong>:
+						It is recommended that you use this field to make it easy to
+						identify this specific request in your mail.<br> &nbsp;</li>
+					<li><strong>e-Mail comments:</strong> This is an optional
+						field. Type comments about the report that you want to include in
+						the body of the e-Mail message.<br> &nbsp;</li>
+					<li><strong>Backup:</strong> This is an optional field and may
+						be used to enter the intranet ID of another BI@IBM users who be
+						given edit access to this schedule request. Note that this status
+						is indicated in the backup owner's <strong>My Cognos
+							schedules</strong> page by a <strong> 'B'</strong> in the <strong>Owner</strong>
+						column.<br>&nbsp;</li>
+					<li><strong>Mail options:</strong> These selections allow you
+						to determine if the report output is to be e-Mailed to its target
+						recipients or just left on the system server for use in Autodeck
+						processing. If the e-Mail option is selected, additional <strong>Mail
+							type</strong> options determine whether the output file itself is to be
+						included in the e-Mail message and/or whether a link (url) to the
+						report is preferred.<br> The <strong>Show SMS SOM
+							Support Team</strong> setting modifies the e-Mail subject line and
+						content, and is intended to be used in those circumstances when
+						the SMS team has scheduled the report on behalf of their
+						stakeholder. If the <strong>Yes</strong> option is selected, the <strong>Requested
+							by</strong> section of the e-Mail subject line is replaced by the text <strong>"Scheduled
+							on your behalf by the SMS SOM Support Team"</strong> and a link is added
+						to the Support Team application in place of the default link
+						enabling the owner to edit the related Cognos Schedule Request.<br>
+						The final mail option determines whether or not any selected
+						output file should be sent in compressed format (i.e. zip file). <br>
+						&nbsp;</li>
+					<li><strong>Notify errors?:</strong> Regardless of the
+						selected <strong>Send mail</strong> option, you may choose to
+						receive e-Mail notifications of any associated schedule processing
+						errors.</li>
+
+				</ul>
+				&nbsp;
+				<!-- BACK TO TOP -->
+				<p class="ibm-ind-link ibm-back-to-top">
+					<a class="ibm-anchor-up-link" href="#ibm-pagetitle-h1">Back to
+						top</a>
+				</p>
+				<!-- END BACK TO TOP LINK -->
+				</li>
+				</ul>
+				<br> &nbsp;
+				<div style="font-weight: bold">
+					<a id="ID6" href="#" name="schedTab"><span
+						style="display: none;">accessibility</span></a> <span
+						class="title_help_page">Schedule tab</span>
+				</div>
+				<br />
+				<div>
+					The <strong>Schedule tab</strong> is used to specify the event
+					trigger and requested timing for your Cognos schedule request. Note
+					that unless the <strong>Run now</strong> check-box is selected when
+					you <strong>Submit</strong> your request, the report schedule will
+					not run until the data load trigger is set <strong>and</strong> the
+					selected day arrives. <br>Complete all the following required
+					fields:
+				</div>
+				<br />
+				<ul>
+					<li><strong>Schedule frequency</strong>: Different options are
+						presented for different trigger types - select the option most
+						appropriate to your needs:</li>
+					<br>
+					<ul>
+						<li><strong>Weekly Triggers</strong></li>
+						<ul>
+							<li>Weekly - will run as soon as the requested weekly data
+								is available.</li>
+							<li>Selected day of the week - will run on the selected day
+								if the data is available; if not the schedule will wait for that
+								week's data trigger.</li>
+							<li>Monthly - will run on the selected day(s) of the month
+								using the then available weekly data.</li>
+							<li>Business event - will run as soon as the designated
+								event occurs using the then available weekly data. This is
+								useful for the reports such as the QSAI reports that are only
+								required at specific times during the business cycle.</li>
+						</ul>
+						<li><strong>Daily Triggers</strong></li>
+						<ul>
+							<li>Daily - will run using close of business data for the
+								selected day(s).</li>
+							<li>Monthly - will run using close of business data for the
+								selected day(s) of the month.</li>
+						</ul>
+						<li><strong>NRT Triggers</strong></li>
+						<ul>
+							<li>Not applicable - report will only be run when the <strong>Run
+									now</strong> option is selected.
+							</li>
+						</ul>
+					</ul>
+					<br>
+					<li><strong>Data load timing</strong>: Select the data load
+						update trigger for this schedule request. (Note that this option
+						is not applicable for NRT report schedule requests.)<br>
+						&nbsp;</li>
+					<li><strong>Expiration date</strong>: Specify when the report
+						schedule expires - the date will default to the maximum allowed
+						for the selected schedule frequency. You will be prompted to
+						extend the Expiration date before the schedule is set to
+						'Inactive' in case you still need it to run. (Note that this
+						option is not applicable to NRT report schedule requests.)<br>
+						&nbsp;
+				</ul>
+				<!-- BACK TO TOP -->
+				<p class="ibm-ind-link ibm-back-to-top">
+					<a class="ibm-anchor-up-link" href="#ibm-pagetitle-h1">Back to
+						top</a>
+				</p>
+				<!-- END BACK TO TOP LINK -->
+				</li>
+				</ul>
+				<br> &nbsp;
+				<div style="font-weight: bold">
+					<a id="ID7" href="#" name="histTab"><span
+						style="display: none;">accessibility</span></a> <span
+						class="title_help_page">Schedule history tab</span>
+				</div>
+				<br />
+				<div>
+					The <strong>Schedule history</strong> tab displays a summary of the
+					execution status of this schedule but will only appear after your
+					schedule request has run for the first time. <br>The
+					information provided includes:
+					<ul>
+						<li>Start time and Finish time (date and time stamp - GMT)</li>
+						<li>Status code and explanatory message. In the event of
+							failures please click on the <strong>Running ID</strong> link for
+							additional information. If the report ran successfully (code 100
+							or 101) the link will attempt to download that report output.
+						</li>
+						<ul>
+							<li>100 - Report ran successfully.</li>
+							<li>101 - Report ran and sent out mail successfully.</li>
+							<li>111 - Report ran successfully but the report output is no longer available for download.</li>
+							<li>200 - Report failed to run successfully.</li>
+							<li>300 - Report is running.</li>
+							<li>400 - Timeout</li>
+						</ul>
+						<li>Flags indicating whether the e-Mail was sent and whether
+							the report output was published for broader usage</li>
+					</ul>
+					<!-- BACK TO TOP -->
+					<p class="ibm-ind-link ibm-back-to-top">
+						<a class="ibm-anchor-up-link" href="#ibm-pagetitle-h1">Back to
+							top</a>
+					</p>
+					<!-- END BACK TO TOP LINK -->
+				</div>
+				<br />
+				<p>&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<th scope="row" style="display: none;">row3</th>
+		<td style="width: 100%; height: 1px;">&nbsp;</td>
+	</tr>
+	</tbody>
+</table>

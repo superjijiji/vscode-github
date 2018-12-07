@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-US">
+<head>
+<script type="text/javascript">
+	document.title += ' | TBS Execution Status Display';
+	document
+			.writeln('<link rel="stylesheet" type="text/css" href="/common/v6/w3_common.css" />');
+	document
+			.writeln('<link disabled="disabled" href="/common/v6/w3_netscape.css" rel="stylesheet" type="text/css" />');
+	if (document.all)
+		document.createStyleSheet("/common/v6/css/w3_ie.css");
+	function clearCookie() {
+		document.cookie = 'eodSessionId = ""; path=/; secure'
+	}
+</script>
+</head>
+<body>
+	<!--CONTENT AREA BEGINS HERE-->
+	<table summary="This is a layout table." border="0" cellpadding="0"
+		class="ibm-results-table" cellspacing="0" width="100%">
+		<thead style="display: none">
+			<tr>
+				<td scope="col">col1</td>
+				<td scope="col">col2</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr style="display: none;">
+				<th scope="col">col1</th>
+				<th scope="col">col2</th>
+			</tr>
+			<tr>
+				<th style="display: none;" scope="row">row1</th>
+				<td style="width: 100%; height: 15px;"><img
+					src="/images/v6/odot.gif" alt="" height="15" width="1"></td>
+			</tr>
+			<tr>
+				<th style="display: none;" scope="row">row2</th>
+				<td style="width: 100%; height: 1px; vertical-align: top;">
+					<div>
+						The <strong>TBS Execution Status</strong> page helps you
+						understand the <strong>current state</strong> of the BI@IBM <strong>Trigger-Based
+						Schedule</strong> workload. &nbsp;<br>&nbsp;<br>
+						Use the menu option to select the relevant Cognos domain to be displayed.
+						The on-page<strong> search</strong> function may also be used to help identify relevant TBS job streams.
+						Just type the desired text string in the Search box to restrict the display to all entries
+						containing that string.
+						The following information is provided: &nbsp;<br>
+						<ul>
+							<li><strong>Run Date</strong> - the date (GMT based) that
+								the trigger was set.</li>
+							<li><strong>Trigger</strong> - the name of the trigger as
+								shown in the Cognos Schedule Request and the BI@IBM Data load
+								status portlet.</li>
+							<li><strong>TBS Run</strong> - a number indicating whether
+								this is the 1st, 2nd or 3rd (final) attempt to run these
+								schedules</li>
+							<li><strong>Start Time (GMT)</strong> - the time this
+								particular TBS run was started.</li>
+							<li><strong>End Time (GMT)</strong> - the time the specified
+								TBS run was completed.</li>
+							<li><strong>Success</strong> - the number of schedules that
+								have been successfully completed.</li>
+							<li><strong>Avg Run Time</strong> - the average time taken
+								to complete the schedules shown in minutes and seconds.</li>
+							<li><strong>Active</strong> - the number of schedule
+								requests currently being executed.</li>
+							<li><strong>To Go</strong> - the number of outstanding
+								schedule requests for this run.</li>
+							<li><strong>Fail</strong> - the number of schedule requests
+								that have failed to run successfully</li>
+							<li><strong>Off-peak Included</strong> - Y/N flag indicating
+								whether schedules with an off-peak priority are included in this
+								TBS run.</li>
+							<li><strong>Status</strong> - shows the execution status for
+								the specified TBS run:
+							<ul>
+								<li>Done - TBS run has completed and information is current.</li>
+								<li>Terminated - TBS run was cancelled.</li>
+								<li>In-progress - TBS run is in progress.
+								To refresh the status of an active TBS job click on the <strong>In-progress</strong>
+								link</li>
+								<li>On-hold - TBS run has been temporarily suspended.</li>
+								<li>Out of Date - TBS run was completed or terminated but
+									the information is no longer current.</li>
+							</ul>
+							Note: each row in the table is color-coded to indicate whether the designated TBS Run is:
+							<ul>
+								<li>In-progress or On-hold - Yellow</li>
+								<li>Completed today - Green</li>
+								<li>Completed yesterday/last week - Red</li>
+							</ul></li>
+						</ul>
+				</td>
+			</tr>
+			<tr>
+				<th style="display: none;" scope="row">row3</th>
+				<td style="width: 100%; height: 1px;">&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+	<!--CONTENT AREA ENDS HERE-->
+</body>
+</html>
